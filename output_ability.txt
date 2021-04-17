@@ -1,0 +1,20 @@
+Timestamp: 2021-04-16 20:46:08.836775
+
+Name: drizzle
+Id: 2
+Generation: generation-iii
+Effect: Das weather ändert sich zu rain wenn ein Pokémon mit dieser Fähigkeit den Kampf betritt. Dieser Effekt ist dauerhaft bis das weather geändert wird.  Wenn mehrere Pokémon mit dieser Fähigkeit, drought, sand stream oder snow warning zur selben Zeit den Kampf betreten, werden die Fähigkeiten nach Reihenfolge der speed der Pokémon ausgelöst, unter Berücksichtigung von trick room., 
+Effect short: Ändert beim Betreten des Kampfes das weather in rain.
+Pokemon: politoed pelipper kyogre
+Name: sturdy
+Id: 5
+Generation: generation-iii
+Effect: Wenn das Pokémon volle hp hat, lässt jeder Treffer der das Pokémon besiegt hätte ein hp übrig. Das Pokémon ist immun gegen die K.O.-Attacken fissure, guillotine, horn drill und sheer cold.  Hält das Pokémon ein focus sash, hat die Fähigkeit Vorrang und das Item wird nicht verbraucht., 
+Effect short: Verhindert K.O.-Treffer bei vollen hp, das Pokémon behält 1 hp. Schützt gegen K.O.-Attacken.
+Pokemon: geodude graveler golem magnemite magneton onix sudowoodo pineco forretress steelix shuckle skarmory donphan nosepass aron lairon aggron relicanth regirock shieldon bastiodon bonsly magnezone probopass roggenrola boldore gigalith sawk dwebble crustle tirtouga carracosta tyrunt carbink bergmite avalugg togedemaru cosmoem geodude-alola graveler-alola golem-alola togedemaru-totem
+Name: static
+Id: 9
+Generation: generation-iii
+Effect: Wenn ein Pokémon mit dieser Fähigkeit von einer Attacke mit Kontakt getroffen wird, besteht eine 30% Chance, dass der Angreifer paralysiert wird.  Pokémon die immun gegen electric Attacken sind können trotzdem von dieser Fähigkeit paralysiert werden.  Außerhalb vom Kampf: Wenn ein Pokémon mit dieser Fähigkeit an erster Stelle im Team steht, besteht eine 50% Chance einem electric Pokémon zu begegnen, falls es welche gibt., 
+Effect short: 30% Chance das angreifende Pokémon bei Kontakt zu paralysieren.
+Pokemon: pikachu raichu voltorb electrode electabuzz zapdos pichu mareep flaaffy ampharos elekid electrike manectric emolga stunfisk toxel arctozolt pikachu-rock-star pikachu-belle pikachu-pop-star pikachu-phd pikachu-libre pikachu-cosplay pikachu-original-cap pikachu-hoenn-cap pikachu-sinnoh-cap pikachu-unova-cap pikachu-kalos-cap pikachu-alola-cap pikachu-partner-cap pikachu-gmax

@@ -1,0 +1,1800 @@
+Timestamp: 2021-04-12 22:11:29.885678
+Pokemon: pikachu 
+	ID: 25
+	Height: 4
+	Weight: 60
+	Types: 
+		 Name: electric
+	Stats: 
+		
+		Name: hp
+		ID: 1
+		Is_Battle_Only: False
+		
+		Name: attack
+		ID: 2
+		Is_Battle_Only: False
+		
+		Name: defense
+		ID: 3
+		Is_Battle_Only: False
+		
+		Name: special-attack
+		ID: 4
+		Is_Battle_Only: False
+		
+		Name: special-defense
+		ID: 5
+		Is_Battle_Only: False
+		
+		Name: speed
+		ID: 6
+		Is_Battle_Only: False
+	--------- 
+	Abilities: 
+		Name: static
+		Id: 9
+		Generation: generation-iii
+		Effect: Wenn ein Pokémon mit dieser Fähigkeit von einer Attacke mit Kontakt getroffen wird, besteht eine 30% Chance, dass der Angreifer paralysiert wird.  Pokémon die immun gegen electric Attacken sind können trotzdem von dieser Fähigkeit paralysiert werden.  Außerhalb vom Kampf: Wenn ein Pokémon mit dieser Fähigkeit an erster Stelle im Team steht, besteht eine 50% Chance einem electric Pokémon zu begegnen, falls es welche gibt., 
+		Effect short: 30% Chance das angreifende Pokémon bei Kontakt zu paralysieren.
+		Pokemon: pikachu raichu voltorb electrode electabuzz zapdos pichu mareep flaaffy ampharos elekid electrike manectric emolga stunfisk toxel arctozolt pikachu-rock-star pikachu-belle pikachu-pop-star pikachu-phd pikachu-libre pikachu-cosplay pikachu-original-cap pikachu-hoenn-cap pikachu-sinnoh-cap pikachu-unova-cap pikachu-kalos-cap pikachu-alola-cap pikachu-partner-cap pikachu-gmax
+		Name: lightning-rod
+		Id: 31
+		Generation: generation-iii
+		Effect: Wenn sich ein Pokémon mit dieser Fähigkeit im Kampf befindet, werden alle electric Attacken die nur 1 Ziel haben auf dieses Pokémon umgeleitet, sofern es ein mögliches Ziel ist. Wird es von electric Attacken getroffen, erhöht sich sein special attack um 1 Stufe, jeder andere Effekt der Attacke wird ignoriert.  Wenn das eigentliche Ziel der Attacke ebenfalls diese Fähigkeit besitzt, wird sie nicht umgeleitet. Gibt es mehrere Pokémon mit dieser Fähigkeit, wird die Attacke zu dem mit der höchsten speed umgeleitet, oder, falls alle die gleiche haben, zu einem zufälligen Pokémon. follow me wirkt vor dieser Fähigkeit.  Wenn das Pokémon mit dieser Fähigkeit vom Typ ground ist, verhindert seine electric Immunität das Ansteigen des Spezialangriffs., 
+		Effect short: Leitet electric Attacken mit nur einem Ziel auf dieses Pokémon um. Absorbiert electric Attacken und erhöht dabei den special attack um 1 Stufe.
+		Pokemon: pikachu raichu cubone marowak rhyhorn rhydon goldeen seaking pichu electrike manectric plusle rhyperior blitzle zebstrika togedemaru pincurchin sceptile-mega pikachu-rock-star pikachu-belle pikachu-pop-star pikachu-phd pikachu-libre pikachu-cosplay pikachu-original-cap pikachu-hoenn-cap pikachu-sinnoh-cap pikachu-unova-cap pikachu-kalos-cap pikachu-alola-cap marowak-alola pikachu-partner-cap marowak-totem togedemaru-totem pikachu-gmax
+	Moves: 
+		
+		Name: mega-punch
+		Id: 5
+		Generation: generation-i
+		Accuracy: 85
+		powerpoints: 20
+		Power: 80
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): Inflicts regular damage with no additional effect.
+		
+		Name: pay-day
+		Id: 6
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 20
+		Power: 40
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): Scatters money on the ground worth five times the user's level.
+		
+		Name: thunder-punch
+		Id: 9
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 15
+		Power: 75
+		Type: electric
+		Move Damage Class: physical
+		Effect (Short): Has a $effect_chance% chance to paralyze the target.
+		
+		Name: slam
+		Id: 21
+		Generation: generation-i
+		Accuracy: 75
+		powerpoints: 20
+		Power: 80
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): Inflicts regular damage with no additional effect.
+		
+		Name: mega-kick
+		Id: 25
+		Generation: generation-i
+		Accuracy: 75
+		powerpoints: 5
+		Power: 120
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): Inflicts regular damage with no additional effect.
+		
+		Name: headbutt
+		Id: 29
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 15
+		Power: 70
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): Has a $effect_chance% chance to make the target flinch.
+		
+		Name: body-slam
+		Id: 34
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 15
+		Power: 85
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): Has a $effect_chance% chance to paralyze the target.
+		
+		Name: take-down
+		Id: 36
+		Generation: generation-i
+		Accuracy: 85
+		powerpoints: 20
+		Power: 90
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): User receives 1/4 the damage it inflicts in recoil.
+		
+		Name: double-edge
+		Id: 38
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 15
+		Power: 120
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): User receives 1/3 the damage inflicted in recoil.
+		
+		Name: tail-whip
+		Id: 39
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 30
+		Power: None
+		Type: normal
+		Move Damage Class: status
+		Effect (Short): Lowers the target's Defense by one stage.
+		
+		Name: growl
+		Id: 45
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 40
+		Power: None
+		Type: normal
+		Move Damage Class: status
+		Effect (Short): Lowers the target's Attack by one stage.
+		
+		Name: surf
+		Id: 57
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 15
+		Power: 90
+		Type: water
+		Move Damage Class: special
+		Effect (Short): Inflicts regular damage and can hit Dive users.
+		
+		Name: submission
+		Id: 66
+		Generation: generation-i
+		Accuracy: 80
+		powerpoints: 20
+		Power: 80
+		Type: fighting
+		Move Damage Class: physical
+		Effect (Short): User receives 1/4 the damage it inflicts in recoil.
+		
+		Name: counter
+		Id: 68
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 20
+		Power: None
+		Type: fighting
+		Move Damage Class: physical
+		Effect (Short): Inflicts twice the damage the user received from the last physical hit it took.
+		
+		Name: seismic-toss
+		Id: 69
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 20
+		Power: None
+		Type: fighting
+		Move Damage Class: physical
+		Effect (Short): Inflicts damage equal to the user's level.
+		
+		Name: strength
+		Id: 70
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 15
+		Power: 80
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): Inflicts regular damage with no additional effect.
+		
+		Name: thunder-shock
+		Id: 84
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 30
+		Power: 40
+		Type: electric
+		Move Damage Class: special
+		Effect (Short): Has a $effect_chance% chance to paralyze the target.
+		
+		Name: thunderbolt
+		Id: 85
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 15
+		Power: 90
+		Type: electric
+		Move Damage Class: special
+		Effect (Short): Has a $effect_chance% chance to paralyze the target.
+		
+		Name: thunder-wave
+		Id: 86
+		Generation: generation-i
+		Accuracy: 90
+		powerpoints: 20
+		Power: None
+		Type: electric
+		Move Damage Class: status
+		Effect (Short): Paralyzes the target.
+		
+		Name: thunder
+		Id: 87
+		Generation: generation-i
+		Accuracy: 70
+		powerpoints: 10
+		Power: 110
+		Type: electric
+		Move Damage Class: special
+		Effect (Short): Has a $effect_chance% chance to paralyze the target.
+		
+		Name: dig
+		Id: 91
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 10
+		Power: 80
+		Type: ground
+		Move Damage Class: physical
+		Effect (Short): User digs underground, dodging all attacks, and hits next turn.
+		
+		Name: toxic
+		Id: 92
+		Generation: generation-i
+		Accuracy: 90
+		powerpoints: 10
+		Power: None
+		Type: poison
+		Move Damage Class: status
+		Effect (Short): Badly poisons the target, inflicting more damage every turn.
+		
+		Name: agility
+		Id: 97
+		Generation: generation-i
+		Accuracy: None
+		powerpoints: 30
+		Power: None
+		Type: psychic
+		Move Damage Class: status
+		Effect (Short): Raises the user's Speed by two stages.
+		
+		Name: quick-attack
+		Id: 98
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 30
+		Power: 40
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): Inflicts regular damage with no additional effect.
+		
+		Name: rage
+		Id: 99
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 20
+		Power: 20
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): If the user is hit after using this move, its Attack rises by one stage.
+		
+		Name: mimic
+		Id: 102
+		Generation: generation-i
+		Accuracy: None
+		powerpoints: 10
+		Power: None
+		Type: normal
+		Move Damage Class: status
+		Effect (Short): Copies the target's last used move.
+		
+		Name: double-team
+		Id: 104
+		Generation: generation-i
+		Accuracy: None
+		powerpoints: 15
+		Power: None
+		Type: normal
+		Move Damage Class: status
+		Effect (Short): Raises the user's evasion by one stage.
+		
+		Name: defense-curl
+		Id: 111
+		Generation: generation-i
+		Accuracy: None
+		powerpoints: 40
+		Power: None
+		Type: normal
+		Move Damage Class: status
+		Effect (Short): Raises user's Defense by one stage.
+		
+		Name: light-screen
+		Id: 113
+		Generation: generation-i
+		Accuracy: None
+		powerpoints: 30
+		Power: None
+		Type: psychic
+		Move Damage Class: status
+		Effect (Short): Reduces damage from special attacks by 50% for five turns.
+		
+		Name: reflect
+		Id: 115
+		Generation: generation-i
+		Accuracy: None
+		powerpoints: 20
+		Power: None
+		Type: psychic
+		Move Damage Class: status
+		Effect (Short): Reduces damage from physical attacks by half.
+		
+		Name: bide
+		Id: 117
+		Generation: generation-i
+		Accuracy: None
+		powerpoints: 10
+		Power: None
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): User waits for two turns, then hits back for twice the damage it took.
+		
+		Name: swift
+		Id: 129
+		Generation: generation-i
+		Accuracy: None
+		powerpoints: 20
+		Power: 60
+		Type: normal
+		Move Damage Class: special
+		Effect (Short): Never misses.
+		
+		Name: skull-bash
+		Id: 130
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 10
+		Power: 130
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): Raises the user's Defense by one stage.  User charges for one turn before attacking.
+		
+		Name: flash
+		Id: 148
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 20
+		Power: None
+		Type: normal
+		Move Damage Class: status
+		Effect (Short): Lowers the target's accuracy by one stage.
+		
+		Name: rest
+		Id: 156
+		Generation: generation-i
+		Accuracy: None
+		powerpoints: 10
+		Power: None
+		Type: psychic
+		Move Damage Class: status
+		Effect (Short): User sleeps for two turns, completely healing itself.
+		
+		Name: substitute
+		Id: 164
+		Generation: generation-i
+		Accuracy: None
+		powerpoints: 10
+		Power: None
+		Type: normal
+		Move Damage Class: status
+		Effect (Short): Transfers 1/4 of the user's max HP into a doll, protecting the user from further damage or status changes until it breaks.
+		
+		Name: snore
+		Id: 173
+		Generation: generation-ii
+		Accuracy: 100
+		powerpoints: 15
+		Power: 50
+		Type: normal
+		Move Damage Class: special
+		Effect (Short): Has a $effect_chance% chance to make the target flinch.  Only works if the user is sleeping.
+		
+		Name: curse
+		Id: 174
+		Generation: generation-ii
+		Accuracy: None
+		powerpoints: 10
+		Power: None
+		Type: ghost
+		Move Damage Class: status
+		Effect (Short): Ghosts pay half their max HP to hurt the target every turn.  Others decrease Speed but raise Attack and Defense.
+		
+		Name: protect
+		Id: 182
+		Generation: generation-ii
+		Accuracy: None
+		powerpoints: 10
+		Power: None
+		Type: normal
+		Move Damage Class: status
+		Effect (Short): Prevents any moves from hitting the user this turn.
+		
+		Name: mud-slap
+		Id: 189
+		Generation: generation-ii
+		Accuracy: 100
+		powerpoints: 10
+		Power: 20
+		Type: ground
+		Move Damage Class: special
+		Effect (Short): Has a $effect_chance% chance to lower the target's accuracy by one stage.
+		
+		Name: zap-cannon
+		Id: 192
+		Generation: generation-ii
+		Accuracy: 50
+		powerpoints: 5
+		Power: 120
+		Type: electric
+		Move Damage Class: special
+		Effect (Short): Has a $effect_chance% chance to paralyze the target.
+		
+		Name: detect
+		Id: 197
+		Generation: generation-ii
+		Accuracy: None
+		powerpoints: 5
+		Power: None
+		Type: fighting
+		Move Damage Class: status
+		Effect (Short): Prevents any moves from hitting the user this turn.
+		
+		Name: endure
+		Id: 203
+		Generation: generation-ii
+		Accuracy: None
+		powerpoints: 10
+		Power: None
+		Type: normal
+		Move Damage Class: status
+		Effect (Short): Prevents the user's HP from lowering below 1 this turn.
+		
+		Name: rollout
+		Id: 205
+		Generation: generation-ii
+		Accuracy: 90
+		powerpoints: 20
+		Power: 30
+		Type: rock
+		Move Damage Class: physical
+		Effect (Short): Power doubles every turn this move is used in succession after the first, resetting after five turns.
+		
+		Name: swagger
+		Id: 207
+		Generation: generation-ii
+		Accuracy: 85
+		powerpoints: 15
+		Power: None
+		Type: normal
+		Move Damage Class: status
+		Effect (Short): Raises the target's Attack by two stages and confuses the target.
+		
+		Name: spark
+		Id: 209
+		Generation: generation-ii
+		Accuracy: 100
+		powerpoints: 20
+		Power: 65
+		Type: electric
+		Move Damage Class: physical
+		Effect (Short): Has a $effect_chance% chance to paralyze the target.
+		
+		Name: attract
+		Id: 213
+		Generation: generation-ii
+		Accuracy: 100
+		powerpoints: 15
+		Power: None
+		Type: normal
+		Move Damage Class: status
+		Effect (Short): Target falls in love if it has the opposite gender, and has a 50% chance to refuse attacking the user.
+		
+		Name: sleep-talk
+		Id: 214
+		Generation: generation-ii
+		Accuracy: None
+		powerpoints: 10
+		Power: None
+		Type: normal
+		Move Damage Class: status
+		Effect (Short): Randomly uses one of the user's other three moves.  Only works if the user is sleeping.
+		
+		Name: return
+		Id: 216
+		Generation: generation-ii
+		Accuracy: 100
+		powerpoints: 20
+		Power: None
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): Power increases with happiness, up to a maximum of 102.
+		
+		Name: frustration
+		Id: 218
+		Generation: generation-ii
+		Accuracy: 100
+		powerpoints: 20
+		Power: None
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): Power increases as happiness decreases, up to a maximum of 102.
+		
+		Name: dynamic-punch
+		Id: 223
+		Generation: generation-ii
+		Accuracy: 50
+		powerpoints: 5
+		Power: 100
+		Type: fighting
+		Move Damage Class: physical
+		Effect (Short): Has a $effect_chance% chance to confuse the target.
+		
+		Name: iron-tail
+		Id: 231
+		Generation: generation-ii
+		Accuracy: 75
+		powerpoints: 15
+		Power: 100
+		Type: steel
+		Move Damage Class: physical
+		Effect (Short): Has a $effect_chance% chance to lower the target's Defense by one stage.
+		
+		Name: hidden-power
+		Id: 237
+		Generation: generation-ii
+		Accuracy: 100
+		powerpoints: 15
+		Power: 60
+		Type: normal
+		Move Damage Class: special
+		Effect (Short): Power and type depend upon user's IVs.  Power can range from 30 to 70.
+		
+		Name: rain-dance
+		Id: 240
+		Generation: generation-ii
+		Accuracy: None
+		powerpoints: 5
+		Power: None
+		Type: water
+		Move Damage Class: status
+		Effect (Short): Changes the weather to rain for five turns.
+		
+		Name: rock-smash
+		Id: 249
+		Generation: generation-ii
+		Accuracy: 100
+		powerpoints: 15
+		Power: 40
+		Type: fighting
+		Move Damage Class: physical
+		Effect (Short): Has a $effect_chance% chance to lower the target's Defense by one stage.
+		
+		Name: facade
+		Id: 263
+		Generation: generation-iii
+		Accuracy: 100
+		powerpoints: 20
+		Power: 70
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): Power doubles if user is burned, paralyzed, or poisoned.
+		
+		Name: focus-punch
+		Id: 264
+		Generation: generation-iii
+		Accuracy: 100
+		powerpoints: 20
+		Power: 150
+		Type: fighting
+		Move Damage Class: physical
+		Effect (Short): If the user takes damage before attacking, the attack is canceled.
+		
+		Name: helping-hand
+		Id: 270
+		Generation: generation-iii
+		Accuracy: None
+		powerpoints: 20
+		Power: None
+		Type: normal
+		Move Damage Class: status
+		Effect (Short): Ally's next move inflicts half more damage.
+		
+		Name: brick-break
+		Id: 280
+		Generation: generation-iii
+		Accuracy: 100
+		powerpoints: 15
+		Power: 75
+		Type: fighting
+		Move Damage Class: physical
+		Effect (Short): Destroys Reflect and Light Screen.
+		
+		Name: knock-off
+		Id: 282
+		Generation: generation-iii
+		Accuracy: 100
+		powerpoints: 20
+		Power: 65
+		Type: dark
+		Move Damage Class: physical
+		Effect (Short): Target drops its held item.
+		
+		Name: secret-power
+		Id: 290
+		Generation: generation-iii
+		Accuracy: 100
+		powerpoints: 20
+		Power: 70
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): Has a $effect_chance% chance to inflict a status effect which depends upon the terrain.
+		
+		Name: signal-beam
+		Id: 324
+		Generation: generation-iii
+		Accuracy: 100
+		powerpoints: 15
+		Power: 75
+		Type: bug
+		Move Damage Class: special
+		Effect (Short): Has a $effect_chance% chance to confuse the target.
+		
+		Name: covet
+		Id: 343
+		Generation: generation-iii
+		Accuracy: 100
+		powerpoints: 25
+		Power: 60
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): Takes the target's item.
+		
+		Name: shock-wave
+		Id: 351
+		Generation: generation-iii
+		Accuracy: None
+		powerpoints: 20
+		Power: 60
+		Type: electric
+		Move Damage Class: special
+		Effect (Short): Never misses.
+		
+		Name: natural-gift
+		Id: 363
+		Generation: generation-iv
+		Accuracy: 100
+		powerpoints: 15
+		Power: None
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): Power and type depend on the held berry.
+		
+		Name: feint
+		Id: 364
+		Generation: generation-iv
+		Accuracy: 100
+		powerpoints: 10
+		Power: 30
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): Hits through Protect and Detect.
+		
+		Name: fling
+		Id: 374
+		Generation: generation-iv
+		Accuracy: 100
+		powerpoints: 10
+		Power: None
+		Type: dark
+		Move Damage Class: physical
+		Effect (Short): Throws held item at the target; power depends on the item.
+		
+		Name: magnet-rise
+		Id: 393
+		Generation: generation-iv
+		Accuracy: None
+		powerpoints: 10
+		Power: None
+		Type: electric
+		Move Damage Class: status
+		Effect (Short): User is immune to Ground moves and effects for five turns.
+		
+		Name: discharge
+		Id: 435
+		Generation: generation-iv
+		Accuracy: 100
+		powerpoints: 15
+		Power: 80
+		Type: electric
+		Move Damage Class: special
+		Effect (Short): Has a $effect_chance% chance to paralyze the target.
+		
+		Name: captivate
+		Id: 445
+		Generation: generation-iv
+		Accuracy: 100
+		powerpoints: 20
+		Power: None
+		Type: normal
+		Move Damage Class: status
+		Effect (Short): Lowers the target's Special Attack by two stages if it's the opposite gender.
+		
+		Name: grass-knot
+		Id: 447
+		Generation: generation-iv
+		Accuracy: 100
+		powerpoints: 20
+		Power: None
+		Type: grass
+		Move Damage Class: special
+		Effect (Short): Inflicts more damage to heavier targets, with a maximum of 120 power.
+		
+		Name: charge-beam
+		Id: 451
+		Generation: generation-iv
+		Accuracy: 90
+		powerpoints: 10
+		Power: 50
+		Type: electric
+		Move Damage Class: special
+		Effect (Short): Has a $effect_chance% chance to raise the user's Special Attack by one stage.
+		
+		Name: electro-ball
+		Id: 486
+		Generation: generation-v
+		Accuracy: 100
+		powerpoints: 10
+		Power: None
+		Type: electric
+		Move Damage Class: special
+		Effect (Short): Power is higher when the user has greater Speed than the target, up to a maximum of 150.
+		
+		Name: round
+		Id: 496
+		Generation: generation-v
+		Accuracy: 100
+		powerpoints: 15
+		Power: 60
+		Type: normal
+		Move Damage Class: special
+		Effect (Short): Has double power if it's used more than once per turn.
+		
+		Name: echoed-voice
+		Id: 497
+		Generation: generation-v
+		Accuracy: 100
+		powerpoints: 15
+		Power: 40
+		Type: normal
+		Move Damage Class: special
+		Effect (Short): Power increases by 100% for each consecutive use by any friendly Pokémon, to a maximum of 200.
+		
+		Name: volt-switch
+		Id: 521
+		Generation: generation-v
+		Accuracy: 100
+		powerpoints: 20
+		Power: 70
+		Type: electric
+		Move Damage Class: special
+		Effect (Short): User must switch out after attacking.
+		
+		Name: electroweb
+		Id: 527
+		Generation: generation-v
+		Accuracy: 95
+		powerpoints: 15
+		Power: 55
+		Type: electric
+		Move Damage Class: special
+		Effect (Short): Lowers the target's Speed by one stage.
+		
+		Name: wild-charge
+		Id: 528
+		Generation: generation-v
+		Accuracy: 100
+		powerpoints: 15
+		Power: 90
+		Type: electric
+		Move Damage Class: physical
+		Effect (Short): User receives 1/4 the damage it inflicts in recoil.
+		
+		Name: play-nice
+		Id: 589
+		Generation: generation-vi
+		Accuracy: None
+		powerpoints: 20
+		Power: None
+		Type: normal
+		Move Damage Class: status
+		Effect (Short): Lowers the target's Attack by one stage.
+		
+		Name: confide
+		Id: 590
+		Generation: generation-vi
+		Accuracy: None
+		powerpoints: 20
+		Power: None
+		Type: normal
+		Move Damage Class: status
+		Effect (Short): Lowers the target's Special Attack by one stage.
+		
+		Name: nuzzle
+		Id: 609
+		Generation: generation-vi
+		Accuracy: 100
+		powerpoints: 20
+		Power: 20
+		Type: electric
+		Move Damage Class: physical
+		Effect (Short): Has a $effect_chance% chance to paralyze the target.
+	Expanded: TruePokemon: ditto 
+	ID: 132
+	Height: 3
+	Weight: 40
+	Types: 
+		 Name: normal
+	Stats: 
+		
+		Name: hp
+		ID: 1
+		Is_Battle_Only: False
+		
+		Name: attack
+		ID: 2
+		Is_Battle_Only: False
+		
+		Name: defense
+		ID: 3
+		Is_Battle_Only: False
+		
+		Name: special-attack
+		ID: 4
+		Is_Battle_Only: False
+		
+		Name: special-defense
+		ID: 5
+		Is_Battle_Only: False
+		
+		Name: speed
+		ID: 6
+		Is_Battle_Only: False
+	--------- 
+	Abilities: 
+		Name: limber
+		Id: 7
+		Generation: generation-iii
+		Effect: Ein Pokémon mit dieser Fähigkeit kann nicht paralysiert werden.  Wenn ein paralysiertes Pokémon diese Fähigkeit erhält, wird es von der paralysis geheilt. Das bezieht das Wiedererlangen dieser Fähigkeit nach dem Kampf mit ein., 
+		Effect short: Verhindert paralysis.
+		Pokemon: persian hitmonlee ditto buneary lopunny glameow purrloin liepard stunfisk hawlucha mareanie toxapex clobbopus grapploct
+		Name: imposter
+		Id: 150
+		Generation: generation-v
+		Effect: Pokémon mit dieser Fähigkeit kopieren einen zufälligen Gegner. Der Effekt ist identisch mit transform., 
+		Effect short: Verwandelt sich beim Betreten des Kampfes in den Gegner.
+		Pokemon: ditto
+	Moves: 
+		
+		Name: transform
+		Id: 144
+		Generation: generation-i
+		Accuracy: None
+		powerpoints: 10
+		Power: None
+		Type: normal
+		Move Damage Class: status
+		Effect (Short): User becomes a copy of the target until it leaves battle.
+	Expanded: TruePokemon: charmeleon 
+	ID: 5
+	Height: 11
+	Weight: 190
+	Types: 
+		 Name: fire
+	Stats: 
+		
+		Name: hp
+		ID: 1
+		Is_Battle_Only: False
+		
+		Name: attack
+		ID: 2
+		Is_Battle_Only: False
+		
+		Name: defense
+		ID: 3
+		Is_Battle_Only: False
+		
+		Name: special-attack
+		ID: 4
+		Is_Battle_Only: False
+		
+		Name: special-defense
+		ID: 5
+		Is_Battle_Only: False
+		
+		Name: speed
+		ID: 6
+		Is_Battle_Only: False
+	--------- 
+	Abilities: 
+		Name: blaze
+		Id: 66
+		Generation: generation-iii
+		Effect: Wenn ein Pokémon mit dieser Fähigkeit nur noch 1/3 seiner maximalen hp oder weniger hat, werden all seine fire Attacken verstärkt, so dass sie 1,5× so viel regular damage anrichten wie sonst., 
+		Effect short: Erhöht den Schaden von fire Attacken um 50% wenn nur noch 1/3 der maximalen hp oder weniger übrig sind.
+		Pokemon: charmander charmeleon charizard cyndaquil quilava typhlosion torchic combusken blaziken chimchar monferno infernape tepig pignite emboar pansear simisear fennekin braixen delphox litten torracat incineroar scorbunny raboot cinderace charizard-gmax cinderace-gmax
+		Name: solar-power
+		Id: 94
+		Generation: generation-iv
+		Effect: Während starkem Sonnenlicht, wird der special attack von Pokémon mit dieser Fähigkeit um 50% erhöht, dafür erleidet es 1/8 seiner maximalen hp Schaden am Ende der Runde., 
+		Effect short: Erhöht den special attack um 50% aber zieht jede Runde 1/8 der max hp ab während starkem Sonnenlicht.
+		Pokemon: charmander charmeleon charizard sunkern sunflora tropius helioptile heliolisk houndoom-mega charizard-gmax
+	Moves: 
+		
+		Name: mega-punch
+		Id: 5
+		Generation: generation-i
+		Accuracy: 85
+		powerpoints: 20
+		Power: 80
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): Inflicts regular damage with no additional effect.
+		
+		Name: fire-punch
+		Id: 7
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 15
+		Power: 75
+		Type: fire
+		Move Damage Class: physical
+		Effect (Short): Has a $effect_chance% chance to burn the target.
+		
+		Name: thunder-punch
+		Id: 9
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 15
+		Power: 75
+		Type: electric
+		Move Damage Class: physical
+		Effect (Short): Has a $effect_chance% chance to paralyze the target.
+		
+		Name: scratch
+		Id: 10
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 35
+		Power: 40
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): Inflicts regular damage with no additional effect.
+		
+		Name: swords-dance
+		Id: 14
+		Generation: generation-i
+		Accuracy: None
+		powerpoints: 20
+		Power: None
+		Type: normal
+		Move Damage Class: status
+		Effect (Short): Raises the user's Attack by two stages.
+		
+		Name: cut
+		Id: 15
+		Generation: generation-i
+		Accuracy: 95
+		powerpoints: 30
+		Power: 50
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): Inflicts regular damage with no additional effect.
+		
+		Name: mega-kick
+		Id: 25
+		Generation: generation-i
+		Accuracy: 75
+		powerpoints: 5
+		Power: 120
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): Inflicts regular damage with no additional effect.
+		
+		Name: headbutt
+		Id: 29
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 15
+		Power: 70
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): Has a $effect_chance% chance to make the target flinch.
+		
+		Name: body-slam
+		Id: 34
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 15
+		Power: 85
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): Has a $effect_chance% chance to paralyze the target.
+		
+		Name: take-down
+		Id: 36
+		Generation: generation-i
+		Accuracy: 85
+		powerpoints: 20
+		Power: 90
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): User receives 1/4 the damage it inflicts in recoil.
+		
+		Name: double-edge
+		Id: 38
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 15
+		Power: 120
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): User receives 1/3 the damage inflicted in recoil.
+		
+		Name: leer
+		Id: 43
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 30
+		Power: None
+		Type: normal
+		Move Damage Class: status
+		Effect (Short): Lowers the target's Defense by one stage.
+		
+		Name: growl
+		Id: 45
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 40
+		Power: None
+		Type: normal
+		Move Damage Class: status
+		Effect (Short): Lowers the target's Attack by one stage.
+		
+		Name: ember
+		Id: 52
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 25
+		Power: 40
+		Type: fire
+		Move Damage Class: special
+		Effect (Short): Has a $effect_chance% chance to burn the target.
+		
+		Name: flamethrower
+		Id: 53
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 15
+		Power: 90
+		Type: fire
+		Move Damage Class: special
+		Effect (Short): Has a $effect_chance% chance to burn the target.
+		
+		Name: submission
+		Id: 66
+		Generation: generation-i
+		Accuracy: 80
+		powerpoints: 20
+		Power: 80
+		Type: fighting
+		Move Damage Class: physical
+		Effect (Short): User receives 1/4 the damage it inflicts in recoil.
+		
+		Name: counter
+		Id: 68
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 20
+		Power: None
+		Type: fighting
+		Move Damage Class: physical
+		Effect (Short): Inflicts twice the damage the user received from the last physical hit it took.
+		
+		Name: seismic-toss
+		Id: 69
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 20
+		Power: None
+		Type: fighting
+		Move Damage Class: physical
+		Effect (Short): Inflicts damage equal to the user's level.
+		
+		Name: strength
+		Id: 70
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 15
+		Power: 80
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): Inflicts regular damage with no additional effect.
+		
+		Name: dragon-rage
+		Id: 82
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 10
+		Power: None
+		Type: dragon
+		Move Damage Class: special
+		Effect (Short): Inflicts 40 points of damage.
+		
+		Name: fire-spin
+		Id: 83
+		Generation: generation-i
+		Accuracy: 85
+		powerpoints: 15
+		Power: 35
+		Type: fire
+		Move Damage Class: special
+		Effect (Short): Prevents the target from fleeing and inflicts damage for 2-5 turns.
+		
+		Name: dig
+		Id: 91
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 10
+		Power: 80
+		Type: ground
+		Move Damage Class: physical
+		Effect (Short): User digs underground, dodging all attacks, and hits next turn.
+		
+		Name: toxic
+		Id: 92
+		Generation: generation-i
+		Accuracy: 90
+		powerpoints: 10
+		Power: None
+		Type: poison
+		Move Damage Class: status
+		Effect (Short): Badly poisons the target, inflicting more damage every turn.
+		
+		Name: rage
+		Id: 99
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 20
+		Power: 20
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): If the user is hit after using this move, its Attack rises by one stage.
+		
+		Name: mimic
+		Id: 102
+		Generation: generation-i
+		Accuracy: None
+		powerpoints: 10
+		Power: None
+		Type: normal
+		Move Damage Class: status
+		Effect (Short): Copies the target's last used move.
+		
+		Name: double-team
+		Id: 104
+		Generation: generation-i
+		Accuracy: None
+		powerpoints: 15
+		Power: None
+		Type: normal
+		Move Damage Class: status
+		Effect (Short): Raises the user's evasion by one stage.
+		
+		Name: smokescreen
+		Id: 108
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 20
+		Power: None
+		Type: normal
+		Move Damage Class: status
+		Effect (Short): Lowers the target's accuracy by one stage.
+		
+		Name: defense-curl
+		Id: 111
+		Generation: generation-i
+		Accuracy: None
+		powerpoints: 40
+		Power: None
+		Type: normal
+		Move Damage Class: status
+		Effect (Short): Raises user's Defense by one stage.
+		
+		Name: reflect
+		Id: 115
+		Generation: generation-i
+		Accuracy: None
+		powerpoints: 20
+		Power: None
+		Type: psychic
+		Move Damage Class: status
+		Effect (Short): Reduces damage from physical attacks by half.
+		
+		Name: bide
+		Id: 117
+		Generation: generation-i
+		Accuracy: None
+		powerpoints: 10
+		Power: None
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): User waits for two turns, then hits back for twice the damage it took.
+		
+		Name: fire-blast
+		Id: 126
+		Generation: generation-i
+		Accuracy: 85
+		powerpoints: 5
+		Power: 110
+		Type: fire
+		Move Damage Class: special
+		Effect (Short): Has a $effect_chance% chance to burn the target.
+		
+		Name: swift
+		Id: 129
+		Generation: generation-i
+		Accuracy: None
+		powerpoints: 20
+		Power: 60
+		Type: normal
+		Move Damage Class: special
+		Effect (Short): Never misses.
+		
+		Name: skull-bash
+		Id: 130
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 10
+		Power: 130
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): Raises the user's Defense by one stage.  User charges for one turn before attacking.
+		
+		Name: rest
+		Id: 156
+		Generation: generation-i
+		Accuracy: None
+		powerpoints: 10
+		Power: None
+		Type: psychic
+		Move Damage Class: status
+		Effect (Short): User sleeps for two turns, completely healing itself.
+		
+		Name: rock-slide
+		Id: 157
+		Generation: generation-i
+		Accuracy: 90
+		powerpoints: 10
+		Power: 75
+		Type: rock
+		Move Damage Class: physical
+		Effect (Short): Has a $effect_chance% chance to make the target flinch.
+		
+		Name: slash
+		Id: 163
+		Generation: generation-i
+		Accuracy: 100
+		powerpoints: 20
+		Power: 70
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): Has an increased chance for a critical hit.
+		
+		Name: substitute
+		Id: 164
+		Generation: generation-i
+		Accuracy: None
+		powerpoints: 10
+		Power: None
+		Type: normal
+		Move Damage Class: status
+		Effect (Short): Transfers 1/4 of the user's max HP into a doll, protecting the user from further damage or status changes until it breaks.
+		
+		Name: snore
+		Id: 173
+		Generation: generation-ii
+		Accuracy: 100
+		powerpoints: 15
+		Power: 50
+		Type: normal
+		Move Damage Class: special
+		Effect (Short): Has a $effect_chance% chance to make the target flinch.  Only works if the user is sleeping.
+		
+		Name: curse
+		Id: 174
+		Generation: generation-ii
+		Accuracy: None
+		powerpoints: 10
+		Power: None
+		Type: ghost
+		Move Damage Class: status
+		Effect (Short): Ghosts pay half their max HP to hurt the target every turn.  Others decrease Speed but raise Attack and Defense.
+		
+		Name: protect
+		Id: 182
+		Generation: generation-ii
+		Accuracy: None
+		powerpoints: 10
+		Power: None
+		Type: normal
+		Move Damage Class: status
+		Effect (Short): Prevents any moves from hitting the user this turn.
+		
+		Name: scary-face
+		Id: 184
+		Generation: generation-ii
+		Accuracy: 100
+		powerpoints: 10
+		Power: None
+		Type: normal
+		Move Damage Class: status
+		Effect (Short): Lowers the target's Speed by two stages.
+		
+		Name: mud-slap
+		Id: 189
+		Generation: generation-ii
+		Accuracy: 100
+		powerpoints: 10
+		Power: 20
+		Type: ground
+		Move Damage Class: special
+		Effect (Short): Has a $effect_chance% chance to lower the target's accuracy by one stage.
+		
+		Name: outrage
+		Id: 200
+		Generation: generation-ii
+		Accuracy: 100
+		powerpoints: 10
+		Power: 120
+		Type: dragon
+		Move Damage Class: physical
+		Effect (Short): Hits every turn for 2-3 turns, then confuses the user.
+		
+		Name: endure
+		Id: 203
+		Generation: generation-ii
+		Accuracy: None
+		powerpoints: 10
+		Power: None
+		Type: normal
+		Move Damage Class: status
+		Effect (Short): Prevents the user's HP from lowering below 1 this turn.
+		
+		Name: swagger
+		Id: 207
+		Generation: generation-ii
+		Accuracy: 85
+		powerpoints: 15
+		Power: None
+		Type: normal
+		Move Damage Class: status
+		Effect (Short): Raises the target's Attack by two stages and confuses the target.
+		
+		Name: fury-cutter
+		Id: 210
+		Generation: generation-ii
+		Accuracy: 95
+		powerpoints: 20
+		Power: 40
+		Type: bug
+		Move Damage Class: physical
+		Effect (Short): Power doubles every turn this move is used in succession after the first, maxing out after five turns.
+		
+		Name: attract
+		Id: 213
+		Generation: generation-ii
+		Accuracy: 100
+		powerpoints: 15
+		Power: None
+		Type: normal
+		Move Damage Class: status
+		Effect (Short): Target falls in love if it has the opposite gender, and has a 50% chance to refuse attacking the user.
+		
+		Name: sleep-talk
+		Id: 214
+		Generation: generation-ii
+		Accuracy: None
+		powerpoints: 10
+		Power: None
+		Type: normal
+		Move Damage Class: status
+		Effect (Short): Randomly uses one of the user's other three moves.  Only works if the user is sleeping.
+		
+		Name: return
+		Id: 216
+		Generation: generation-ii
+		Accuracy: 100
+		powerpoints: 20
+		Power: None
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): Power increases with happiness, up to a maximum of 102.
+		
+		Name: frustration
+		Id: 218
+		Generation: generation-ii
+		Accuracy: 100
+		powerpoints: 20
+		Power: None
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): Power increases as happiness decreases, up to a maximum of 102.
+		
+		Name: dynamic-punch
+		Id: 223
+		Generation: generation-ii
+		Accuracy: 50
+		powerpoints: 5
+		Power: 100
+		Type: fighting
+		Move Damage Class: physical
+		Effect (Short): Has a $effect_chance% chance to confuse the target.
+		
+		Name: dragon-breath
+		Id: 225
+		Generation: generation-ii
+		Accuracy: 100
+		powerpoints: 20
+		Power: 60
+		Type: dragon
+		Move Damage Class: special
+		Effect (Short): Has a $effect_chance% chance to paralyze the target.
+		
+		Name: iron-tail
+		Id: 231
+		Generation: generation-ii
+		Accuracy: 75
+		powerpoints: 15
+		Power: 100
+		Type: steel
+		Move Damage Class: physical
+		Effect (Short): Has a $effect_chance% chance to lower the target's Defense by one stage.
+		
+		Name: metal-claw
+		Id: 232
+		Generation: generation-ii
+		Accuracy: 95
+		powerpoints: 35
+		Power: 50
+		Type: steel
+		Move Damage Class: physical
+		Effect (Short): Has a $effect_chance% chance to raise the user's Attack by one stage.
+		
+		Name: hidden-power
+		Id: 237
+		Generation: generation-ii
+		Accuracy: 100
+		powerpoints: 15
+		Power: 60
+		Type: normal
+		Move Damage Class: special
+		Effect (Short): Power and type depend upon user's IVs.  Power can range from 30 to 70.
+		
+		Name: sunny-day
+		Id: 241
+		Generation: generation-ii
+		Accuracy: None
+		powerpoints: 5
+		Power: None
+		Type: fire
+		Move Damage Class: status
+		Effect (Short): Changes the weather to sunny for five turns.
+		
+		Name: rock-smash
+		Id: 249
+		Generation: generation-ii
+		Accuracy: 100
+		powerpoints: 15
+		Power: 40
+		Type: fighting
+		Move Damage Class: physical
+		Effect (Short): Has a $effect_chance% chance to lower the target's Defense by one stage.
+		
+		Name: heat-wave
+		Id: 257
+		Generation: generation-iii
+		Accuracy: 90
+		powerpoints: 10
+		Power: 95
+		Type: fire
+		Move Damage Class: special
+		Effect (Short): Has a $effect_chance% chance to burn the target.
+		
+		Name: will-o-wisp
+		Id: 261
+		Generation: generation-iii
+		Accuracy: 85
+		powerpoints: 15
+		Power: None
+		Type: fire
+		Move Damage Class: status
+		Effect (Short): Burns the target.
+		
+		Name: facade
+		Id: 263
+		Generation: generation-iii
+		Accuracy: 100
+		powerpoints: 20
+		Power: 70
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): Power doubles if user is burned, paralyzed, or poisoned.
+		
+		Name: focus-punch
+		Id: 264
+		Generation: generation-iii
+		Accuracy: 100
+		powerpoints: 20
+		Power: 150
+		Type: fighting
+		Move Damage Class: physical
+		Effect (Short): If the user takes damage before attacking, the attack is canceled.
+		
+		Name: brick-break
+		Id: 280
+		Generation: generation-iii
+		Accuracy: 100
+		powerpoints: 15
+		Power: 75
+		Type: fighting
+		Move Damage Class: physical
+		Effect (Short): Destroys Reflect and Light Screen.
+		
+		Name: secret-power
+		Id: 290
+		Generation: generation-iii
+		Accuracy: 100
+		powerpoints: 20
+		Power: 70
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): Has a $effect_chance% chance to inflict a status effect which depends upon the terrain.
+		
+		Name: overheat
+		Id: 315
+		Generation: generation-iii
+		Accuracy: 90
+		powerpoints: 5
+		Power: 130
+		Type: fire
+		Move Damage Class: special
+		Effect (Short): Lowers the user's Special Attack by two stages after inflicting damage.
+		
+		Name: rock-tomb
+		Id: 317
+		Generation: generation-iii
+		Accuracy: 95
+		powerpoints: 15
+		Power: 60
+		Type: rock
+		Move Damage Class: physical
+		Effect (Short): Has a $effect_chance% chance to lower the target's Speed by one stage.
+		
+		Name: aerial-ace
+		Id: 332
+		Generation: generation-iii
+		Accuracy: None
+		powerpoints: 20
+		Power: 60
+		Type: flying
+		Move Damage Class: physical
+		Effect (Short): Never misses.
+		
+		Name: dragon-claw
+		Id: 337
+		Generation: generation-iii
+		Accuracy: 100
+		powerpoints: 15
+		Power: 80
+		Type: dragon
+		Move Damage Class: physical
+		Effect (Short): Inflicts regular damage with no additional effect.
+		
+		Name: natural-gift
+		Id: 363
+		Generation: generation-iv
+		Accuracy: 100
+		powerpoints: 15
+		Power: None
+		Type: normal
+		Move Damage Class: physical
+		Effect (Short): Power and type depend on the held berry.
+		
+		Name: fling
+		Id: 374
+		Generation: generation-iv
+		Accuracy: 100
+		powerpoints: 10
+		Power: None
+		Type: dark
+		Move Damage Class: physical
+		Effect (Short): Throws held item at the target; power depends on the item.
+		
+		Name: dragon-pulse
+		Id: 406
+		Generation: generation-iv
+		Accuracy: 100
+		powerpoints: 10
+		Power: 85
+		Type: dragon
+		Move Damage Class: special
+		Effect (Short): Inflicts regular damage with no additional effect.
+		
+		Name: shadow-claw
+		Id: 421
+		Generation: generation-iv
+		Accuracy: 100
+		powerpoints: 15
+		Power: 70
+		Type: ghost
+		Move Damage Class: physical
+		Effect (Short): Has an increased chance for a critical hit.
+		
+		Name: fire-fang
+		Id: 424
+		Generation: generation-iv
+		Accuracy: 95
+		powerpoints: 15
+		Power: 65
+		Type: fire
+		Move Damage Class: physical
+		Effect (Short): Has a $effect_chance% chance to burn the target and a $effect_chance% chance to make the target flinch.
+		
+		Name: captivate
+		Id: 445
+		Generation: generation-iv
+		Accuracy: 100
+		powerpoints: 20
+		Power: None
+		Type: normal
+		Move Damage Class: status
+		Effect (Short): Lowers the target's Special Attack by two stages if it's the opposite gender.
+		
+		Name: hone-claws
+		Id: 468
+		Generation: generation-v
+		Accuracy: None
+		powerpoints: 15
+		Power: None
+		Type: dark
+		Move Damage Class: status
+		Effect (Short): Raises the user's Attack and accuracy by one stage.
+		
+		Name: flame-burst
+		Id: 481
+		Generation: generation-v
+		Accuracy: 100
+		powerpoints: 15
+		Power: 70
+		Type: fire
+		Move Damage Class: special
+		Effect (Short): Deals splash damage to Pokémon next to the target.
+		
+		Name: flame-charge
+		Id: 488
+		Generation: generation-v
+		Accuracy: 100
+		powerpoints: 20
+		Power: 50
+		Type: fire
+		Move Damage Class: physical
+		Effect (Short): Inflicts regular damage.  Raises the user's Speed by one stage.
+		
+		Name: round
+		Id: 496
+		Generation: generation-v
+		Accuracy: 100
+		powerpoints: 15
+		Power: 60
+		Type: normal
+		Move Damage Class: special
+		Effect (Short): Has double power if it's used more than once per turn.
+		
+		Name: echoed-voice
+		Id: 497
+		Generation: generation-v
+		Accuracy: 100
+		powerpoints: 15
+		Power: 40
+		Type: normal
+		Move Damage Class: special
+		Effect (Short): Power increases by 100% for each consecutive use by any friendly Pokémon, to a maximum of 200.
+		
+		Name: incinerate
+		Id: 510
+		Generation: generation-v
+		Accuracy: 100
+		powerpoints: 15
+		Power: 60
+		Type: fire
+		Move Damage Class: special
+		Effect (Short): Destroys the target's held berry.
+		
+		Name: inferno
+		Id: 517
+		Generation: generation-v
+		Accuracy: 50
+		powerpoints: 5
+		Power: 100
+		Type: fire
+		Move Damage Class: special
+		Effect (Short): Has a $effect_chance% chance to burn the target.
+		
+		Name: fire-pledge
+		Id: 519
+		Generation: generation-v
+		Accuracy: 100
+		powerpoints: 10
+		Power: 80
+		Type: fire
+		Move Damage Class: special
+		Effect (Short): With Water Pledge, doubles the effect chance of friendly Pokémon's moves for four turns.
+		
+		Name: work-up
+		Id: 526
+		Generation: generation-v
+		Accuracy: None
+		powerpoints: 30
+		Power: None
+		Type: normal
+		Move Damage Class: status
+		Effect (Short): Raises the user's Attack and Special Attack by one stage each.
+		
+		Name: confide
+		Id: 590
+		Generation: generation-vi
+		Accuracy: None
+		powerpoints: 20
+		Power: None
+		Type: normal
+		Move Damage Class: status
+		Effect (Short): Lowers the target's Special Attack by one stage.
+		
+		Name: power-up-punch
+		Id: 612
+		Generation: generation-vi
+		Accuracy: 100
+		powerpoints: 20
+		Power: 40
+		Type: fighting
+		Move Damage Class: physical
+		Effect (Short): Raises the user's Attack by one stage after inflicting damage.
+	Expanded: True
