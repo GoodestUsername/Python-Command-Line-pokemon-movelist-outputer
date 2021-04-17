@@ -1,0 +1,6 @@
+pokedex.py uses args.py to parses the command line arguments, makes a list of requests from them, sends that list of
+requests to pokeapigetter, that calls pokedexrequest (the facade pattern implementation) which talks to the files in
+pokeretriever package that gets the json from the api, and parses the json into PokedexObject objects, that gets return-
+ed to pokedex, and then uses the methods in report to output the results.
+
+program will use sys exit when it catches an exception to exit.
