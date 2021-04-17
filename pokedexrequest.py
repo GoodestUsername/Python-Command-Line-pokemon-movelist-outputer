@@ -20,7 +20,7 @@ class Request:
         :param mode: mode the program is ran in.
         :param identifier: the name / id number of the Pokemon
         :param expanded: an option of getting more information about a pokemon.
-        :param threads: max threads the request can use.
+        :param threads: max num_threads the request can use.
         """
         self.mode = mode
         self.identifier = identifier
@@ -73,7 +73,7 @@ class PokedexRequest:
         :param instance: The thread instance.
         :param name: name / id of the pokemon
         :param expanded: if expanded info is requested
-        :param threads: max number of threads allowed
+        :param threads: max number of num_threads allowed
         :return: a Pokemon object.
         """
         json = PokeApiRetriever.get_json_from_api(instance, mode, name)

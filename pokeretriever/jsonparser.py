@@ -3,6 +3,7 @@ Module contains class to parse json into objects.
 """
 import concurrent
 from pokeretriever.pokeretriever import Ability, Move, Pokemon, Stat
+import concurrent.futures
 
 
 class JSONParser:
@@ -35,7 +36,7 @@ class JSONParser:
         """
         Parse json into pokemon object, with extended information.
 
-        :param threads: number of threads available, int.
+        :param threads: number of num_threads available, int.
         :param json: Json to parse.
         :return: a Pokemon object.
         """
