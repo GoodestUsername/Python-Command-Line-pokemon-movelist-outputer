@@ -22,7 +22,7 @@ class PokeApiGetter:
         self.requests = list_of_requests
         self.max_threads = threads
 
-    def get_api(self):
+    def get_pokedexobjects_from_api(self):
         """
         Return a list of PokedexObjects processed from each request in the list.
         :return: list of PokedexObjects.

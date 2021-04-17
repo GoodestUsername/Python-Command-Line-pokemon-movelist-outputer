@@ -70,7 +70,7 @@ class PokeDex:
         api_call = PokeApiGetter(requests, multiprocessing.cpu_count())
 
         try:
-            self.pokedex_objects = api_call.get_api()
+            self.pokedex_objects = api_call.get_pokedexobjects_from_api()
         except InvalidObjectException as e:
             print(e)
             sys.exit(2)
