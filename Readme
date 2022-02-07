@@ -4,3 +4,5 @@ pokeretriever package that gets the json from the api, and parses the json into 
 ed to pokedex, and then uses the methods in report to output the results.
 
 program will use sys exit when it catches an exception to exit.
+
+COMP3522_Assignment3_A01170099_A01177403
